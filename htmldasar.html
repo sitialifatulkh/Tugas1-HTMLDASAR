@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Belajar Membuat Foram</title>
 </head>
 <body>
+    <form action="formulir.html">
+        Nama : <input type="text" name="nama" value="Nama Kamu" /> <br />
+        Password : <input type="password" name="password" /> <br />
+        Jenis Kelamin : <input type="radio" name="jenis_kelamin" value="laki-laki" checked /> laki-laki
+                        <input type="radio" name="jenis_kelamin" value="perempuan" /> perempuan
+                        <br />
+        Hobi : <input type="checkbox" name="hobi_baca" /> Membaca Buku
+               <input type="checkbox" name="hobi_nulis" checked /> Menulis
+               <input type="checkbox" name="hobi_mancing" /> Memancing
+        Asal Kota : 
+        <select name="asal_kota" id="">
+            <option value="kota jakarta"> jakarta</option>
+            <option value="kota bandung"> bandung</option>
+            <option value="kota semarang"> semarang</option>
+        </select>
+        <br />
+        Komentar Anda :
+        <textarea name="Komentar" rows="5" cols="20" >
+        silahkan katakan isi hati anda
+        </textarea>
+        <br />
+
+        <input type="submit" value="Mulai Proses!">
+
+    </form>
     
 </body>
 </html>
